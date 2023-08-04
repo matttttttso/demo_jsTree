@@ -1,10 +1,10 @@
-package com.example.demo.h2;
+package com.example.demo.jstree;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoH2DbApplicationTests {
+class DemoJstreeApplicationTests {
 
 	@Test
 	void contextLoads() {

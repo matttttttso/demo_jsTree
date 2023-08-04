@@ -1,4 +1,4 @@
-package com.example.demo.h2;
+package com.example.demo.jstree;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemoH2DbApplication.class);
+		return application.sources(DemoJstreeApplication.class);
 	}
 
 }
