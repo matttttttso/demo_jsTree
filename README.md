@@ -1,2 +1,2 @@
-# demo_jsTree
-jsTree demo for SpringBoot
+# demo_jsTree_in_SpringBoot
+jsTree demo in SpringBoot
