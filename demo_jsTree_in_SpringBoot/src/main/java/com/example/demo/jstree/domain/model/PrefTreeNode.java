@@ -11,14 +11,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Node implements Serializable {
+public class PrefTreeNode implements Serializable {
 	private int id;					// id
 	private String name;			// 名前
-	private List<Node> childNodes;	// 子ノード
+	private int parentId;			// 親ノードID
+	private List<PrefTreeNode> childNodes;	// 子ノードリスト
 	
-	public Node(int id, String name, List<Node> childNodes) {
+	public PrefTreeNode(int id, String name, int parentId) {
 		this.id = id;
 		this.name = name;
-		this.childNodes = childNodes;
+		this.parentId = parentId;
 	}
 }
