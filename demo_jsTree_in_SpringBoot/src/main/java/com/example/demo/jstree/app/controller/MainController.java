@@ -26,10 +26,7 @@ public class MainController {
 
 
 	/**
-	 * {@code /survival-rate}にアクセスした際に検索画面を表示
-	 *
-	 * @param model      : Model
-	 * @return showSearchViewメソッド
+	 * 
 	 */
 	@GetMapping()
 	String moveSearchView(Model model) {
