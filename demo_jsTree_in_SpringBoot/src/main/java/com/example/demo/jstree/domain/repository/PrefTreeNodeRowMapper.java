@@ -18,6 +18,7 @@ public class PrefTreeNodeRowMapper implements RowMapper<PrefTreeNode> {
 		return new PrefTreeNode(
 				rs.getInt("id"),
 				rs.getString("name"),
-				rs.getInt("parent_id"));
+				rs.getInt("parent_id")
+		);
 	}
 }

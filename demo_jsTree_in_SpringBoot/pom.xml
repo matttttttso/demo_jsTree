@@ -9,12 +9,12 @@
         <version>3.1.2</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.demo.h2</groupId>
-    <artifactId>demo_H2DB</artifactId>
+    <groupId>com.example.demo.jstree</groupId>
+    <artifactId>demo_jsTree_in_SpringBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>demo_H2DB</name>
-    <description>H2 Demo project for Spring Boot</description>
+    <name>demo_jsTree_in_SpringBoot</name>
+    <description>jsTree Demo project for Spring Boot</description>
     <properties>
         <java.version>17</java.version>
         <webjars-locator.version>0.40</webjars-locator.version>
